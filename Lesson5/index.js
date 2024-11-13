@@ -1,19 +1,26 @@
-let income = 1000;
+// function sayWelcome(userName, currentDay) {
+//   const message =
+//     "Hello, " + userName + "! Have a nice day " + currentDay + "!";
+//   return message;
+// }
 
-let rent = 400;
-let otherExpenses = 500;
+// //const result = sayWelcome("Andrey", "Monday");
+// //console.log(result);
 
-let balance = income - rent - otherExpenses;
+// //console.log(sayWelcome('Andrey', 'Monday'));
 
-console.log(balance);
+// const personName = "Denis";
+// const day = "Monday";
+// const result = sayWelcome(personName, day);
+// console.log(result);
 
-let freelancerIncome = 200;
+function sumOfTheNumbers(a, b) {
+  a + b;
+}
 
-income = income + freelancerIncome;
-console.log(income);
+console.log(sumOfTheNumbers(3, 5));
 
-otherExpenses = otherExpenses * 3;
-console.log(otherExpenses);
-
-income = income / 2;
-console.log(income);
+console.log(
+  "%c ЛЕВАСЬ",
+  "background: lightgreen; padding: 30px; border-radius: 30px; font-size:25px; color: white; font-weight: old"
+);
